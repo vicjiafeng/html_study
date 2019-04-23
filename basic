@@ -15,4 +15,44 @@ HTML
 11.命名锚 <a name="label">页面显示文本</a>
    创建指向该锚的链接 <a href="http://www.baidu.com/#label">页面显示文字</a>
                   <a href="#label">页面显示文字</a>
-12.
+12.<map> 需要添加name和id属性， 之后<img>中的usemap属性可引用<map>中的name或id属性
+13.表格   <tr>表格的行     <td>每行的单元格，用于添加数据   <th>表头标签
+   <table border="1" cellpadding="10">
+   <tr>
+     <th>heading</th>
+   </tr>
+   <tr>
+     <td>row 1, cell 1</td>
+     <td>row 1, cell 2</td>
+   </tr>
+   <tr>
+     <td>row 2, cell 1</td>
+     <td>&nbsp;</td>              # &nbsp空格占位符
+   </tr>
+   </table>
+14.无序列表  列表始于<ul>，每个列表项始于<li>
+   <ul>
+   <li>coffee</li>
+   <li>water</li>
+   </ul>
+15.有序列表   有序列表始于<ol>, 每个列表项始于<li>
+   <ol>
+   <li>coffee</li>
+   <li>water</li>
+   </ol>
+16.自定义列表   自定义列表始于<dl>  每个列表项始于<dt>  每个自定义列表项的定义始于<dd>
+   <dl>
+   <dt>coffee</dt>
+   <dd>black hot drink</dd>
+   </dl>
+17.html块与类
+   分类块级元素<div>     <div class="(some settings in <style>)>
+   分类行内元素<span>    <span class="(some settings in <style>)>
+18.html框架<frameset>
+   每个frameset定义一系列行或列,rows/columns值规定所占面积 <frameset cols/rows="25%,50%,25%>
+   为每个子框架分配 <frame src="frame_a.html"/>
+                <frame src="frame_b.html" noresize="noresize" />  #noresize 不可调整框架
+19.内联框架<iframe>
+   <iframe src="demo_iframe.html" width="100" frameborder="0" name="iframe_a"></iframe>
+   以上语句功能实现：设置宽度，边框属性值，内框命名便于链接的引用（target="iframe_a")
+   
