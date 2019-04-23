@@ -4,7 +4,7 @@ HTML
 <a href=“http://www.baidu.com/" target="_blank">This is a link</a>  #target定义被链接文档显示在何处。
 2.定义图像：
 <img src=“01.png” width =“100” height=“100” alt="explain"/>   alt表示替换文本，当图片不显示时会显示替换文本
-3.<br>标签定义换行
+3.<br />标签定义换行
 4.<hr />标签在HTML页面中创建水平线
 5.<!— 注释 —>. 注释不会在页面显示
 6.<q>元素定义短的引用，会被引号包围
@@ -63,6 +63,13 @@ HTML
    (5)<meta>提供html文档的元数据，并不会显示在页面上但对机器可读。用于规定关键词，作者等，用于浏览器，搜索引擎
    (6)<script>用于定义客户端脚本（javascript)
 21.html中的字符实体（image1）
+22.<!DOCTYPE HTML> HTML5版本
+23.logical styles:
+    <em>This text is emphasized</em>
+    <strong>This text is strong</strong>
+    <code>This is some computer code</code>
+24.physical styles:
+    <b>This text is bold</b>
+    <i>This text is italic</i>
 
-22.
    
