@@ -55,4 +55,14 @@ HTML
 19.内联框架<iframe>
    <iframe src="demo_iframe.html" width="100" frameborder="0" name="iframe_a"></iframe>
    以上语句功能实现：设置宽度，边框属性值，内框命名便于链接的引用（target="iframe_a")
+20.html头部元素<head>
+   (1)<title>定义文档标题
+   (2)<base>为页面上的所有链接规定默认地址或默认目标（target)
+   (3)<link>标签定义文档与外部资源间关系
+   (4)<style>用于为html文档定义样式信息
+   (5)<meta>提供html文档的元数据，并不会显示在页面上但对机器可读。用于规定关键词，作者等，用于浏览器，搜索引擎
+   (6)<script>用于定义客户端脚本（javascript)
+21.html中的字符实体（image1）
+
+22.
    
