@@ -71,5 +71,43 @@ HTML
 24.physical styles:
     <b>This text is bold</b>
     <i>This text is italic</i>
+25.html表单--收集用户输入
+   <form>元素定义html表单
+      (1)<input>输入类型
+                   <input type="text" 。。。>  用于文本输入的单行输入字段
+                   <input type="radio"。。。>  定义单选按钮
+                   <input type="submit"。。。> 提交表单按钮
+                   <input type="checkbox"。。。> 复选框，可以选择0个或多个
+                   <input type="number"。。。> 数字值输入字段
+                   <input type="date"。。。> 日期输入字段
+               *input 输入类型 color,datetime,email,month,range,url,week.......
+      (2)<input>输入属性
+              value:规定输入字段的初始值
+              readonly：输入字段为只读
+              disabled：输入字段是禁用的，被禁用的元素不会提交
+              size：规定输入字段的尺寸
+              maxlength：输入字段允许的最大长度
+              其他属性类型：autocomplete,list,min,max,step,multiple,novalidate...
+      (3)action属性 定义提交表单时执行的动作
+      (4)method属性 规定在提交表单时所用的HTTP方法（GET或POST)
+         GET 默认方法，少量数据
+         POST 安全性更高
+      (5)name属性 输入字段必须设置一个name属性才能被正确提交
+      (6)<fieldset>组合表单中的相关数据
+      (7)<option>元素定义待选择的选项，<option value="audi" selected>audi</option> 
+         使用selected预定义选项，如果没有，则默认待选项第一个为被选选项。option包含着<select>属性中。
+      (8)<button>定义可点击的按钮
+         <button type="button" onclick="alert('hello world!')">Click me!</button>
+      (9)<datalist>为<input>元素规定预定义的选项列表:
+         <from action="action_page.php">
+         <input list="cars">
+         <datalist id="cars">
+             <option value="audi">
+             <option value="fiat">
+             <option value=:toyota>
+         </datalist>
+         </form>
 
+      
+   
    
