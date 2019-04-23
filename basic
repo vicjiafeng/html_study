@@ -1,9 +1,9 @@
 HTML
 
 1.添加链接：
-<a href=“http://www.baidu.com">This is a link</a>
+<a href=“http://www.baidu.com/" target="_blank">This is a link</a>  #target定义被链接文档显示在何处。
 2.定义图像：
-<img src=“01.png” width =“100” height=“100” />
+<img src=“01.png” width =“100” height=“100” alt="explain"/>   alt表示替换文本，当图片不显示时会显示替换文本
 3.<br>标签定义换行
 4.<hr />标签在HTML页面中创建水平线
 5.<!— 注释 —>. 注释不会在页面显示
@@ -11,3 +11,8 @@ HTML
 7.<blockquote> 定义被引用的节，会被进行缩进处理
 8.<abbr title=“world cup”>wc</abbr> 定义缩写或首字母缩略语
 9.<address> 定义部分以斜体显示
+10.<kbd>,<samp>,<code>，<var>,<pre> 分别定义键盘输入格式，计算机输出，编程代码, 变量, 预格式文本
+11.命名锚 <a name="label">页面显示文本</a>
+   创建指向该锚的链接 <a href="http://www.baidu.com/#label">页面显示文字</a>
+                  <a href="#label">页面显示文字</a>
+12.
