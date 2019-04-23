@@ -1,0 +1,9 @@
+HTML
+
+1.添加链接：
+<a href=“http://www.baidu.com">This is a link</a>
+2.定义图像：
+<img src=“01.png” width =“100” height=“100” />
+3.<br>标签定义换行
+4.<hr />标签在HTML页面中创建水平线
+5.<!— 注释 —>. 注释不会在页面显示
