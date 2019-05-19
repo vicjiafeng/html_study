@@ -5,14 +5,17 @@
 ### 1. 异步处理
 
    >串行
+   
    ![](https://github.com/vicjiafeng/html_study/blob/master/image/chuanxing.png)
    
      
    >并行
+   
    ![](https://github.com/vicjiafeng/html_study/blob/master/image/bingxing.png)
      
   
    >引入消息队列
+   
    ![](https://github.com/vicjiafeng/html_study/blob/master/image/1.png)
 
 
