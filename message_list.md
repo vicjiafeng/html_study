@@ -5,22 +5,28 @@
 1. 异步处理
 
    >串行
-     ![]()
+   
+     ![](https://github.com/vicjiafeng/html_study/blob/master/image/chuanxing.png)
+   
      
    >并行
-     ![]()
+   
+     ![](https://github.com/vicjiafeng/html_study/blob/master/image/bingxing.png)
      
+  
    >引入消息队列
+   
      ![](https://github.com/vicjiafeng/html_study/blob/master/image/1.png)
 
 
 2. 应用解耦（订单-库存）
 
-   >
+   >![](https://github.com/vicjiafeng/html_study/blob/master/image/2.png)
 
 3. 流量削锋（秒杀）
 
-   >
+   >![](https://github.com/vicjiafeng/html_study/blob/master/image/3.png)
+   
   
    * 请求先入消息队列，而不是由业务处理系统直接处理，做了一次缓冲,极大地减少了业务处理系统的压力
    
