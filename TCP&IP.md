@@ -77,8 +77,8 @@ ___
 
   * 三次握手
      
-     !()[]
+     ![](https://github.com/vicjiafeng/html_study/blob/master/image/tcp-3.png)
   
   * 四次挥手
   
-     !()[]
+     ![](https://github.com/vicjiafeng/html_study/blob/master/image/tcp-4.png)
