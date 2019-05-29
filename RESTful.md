@@ -14,7 +14,7 @@
          服务端通过content-type告诉客户端资源的表述形式
          
 * 状态的转移
-         [cookie/session](http://www.ruanyifeng.com/blog/2011/09/restful.html)
+              [cookie/session](http://www.ruanyifeng.com/blog/2011/09/restful.html)
          
 * 资源的链接 
 
