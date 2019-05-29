@@ -15,7 +15,7 @@
          
 * 状态的转移
          
-         cookie/session
+     [cookie/session](http://www.ruanyifeng.com/blog/2011/09/restful.html)
          
 * 资源的链接 
 
