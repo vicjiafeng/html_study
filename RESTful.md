@@ -1,4 +1,4 @@
-# RESTful表征性状态转移
+# [RESTful](http://www.ruanyifeng.com/blog/2011/09/restful.html)表征性状态转移
 ——————
 * 资源与URI,资源被识别需要唯一标识(URI)
 
